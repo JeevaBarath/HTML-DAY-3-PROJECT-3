@@ -1,0 +1,33 @@
+.form{
+    border: 2px solid black;
+    padding: 5px;
+    padding-left: 20px;
+    color:white;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.8;
+  }
+  
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://i.ytimg.com/vi/VrndS6uI_FU/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 25px;
+    
+}
+h1{
+    text-align: center;
+    padding-right: 15px;
+}
+.space{
+    text-align: center;
+    
+    transition: transform 0.5s ease-in-out;
+}
+.space:hover{
+    transform: scale(1.1);
+}
